@@ -88,34 +88,30 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Row(
                   children: [
                     Flexible(
-                        child: Container(
-                            // decoration: BoxDecoration(
-                            //     border:
-                            //         Border.all(width: 1, color: Colors.red)),
-                            child: Column(
+                        child: Column(
                       children: [
                         Row(mainAxisSize: MainAxisSize.min, children: [
                           Flexible(
-                              fit: FlexFit.tight,
-                              child: Container(
-                                  decoration: BoxDecoration(
-                                      border: Border.all(
-                                          width: 1, color: Colors.blue)),
-                                  child: const Center(child: Text("Teste")))),
+                          fit: FlexFit.tight,
+                          child: Container(
+                              decoration: BoxDecoration(
+                                  border: Border.all(
+                                      width: 1, color: Colors.blue)),
+                              child: const Center(child: Text("Teste")))),
                         ]),
                         Container(
                           margin: EdgeInsets.only(top: 5),
                           decoration: BoxDecoration(
-                              border:
-                                  Border.all(width: 1, color: Colors.purple)),
+                          border:
+                              Border.all(width: 1, color: Colors.purple)),
                           child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [Text("Teste 2"), Text("Teste 1")],
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const [Text("Teste 2"), Text("Teste 1")],
                           ),
                         )
                       ],
-                    ))),
+                    )),
                   ],
                 ))
           ],
