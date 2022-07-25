@@ -1,16 +1,5 @@
 # experimento_colunas_linhas
 
-A new Flutter project.
+Projeto flutter de experimento para fazer um componente ocupar todo espaço horizontal na linha de uma coluna.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+O layout é composto de uma linha com uma coluna. Essa coluna deve ter duas linhas e os componentes de cada linha deve ocupar todo o espaço horizontal disponível.
