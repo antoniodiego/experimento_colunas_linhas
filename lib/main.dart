@@ -83,41 +83,39 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Container(
                 margin: const EdgeInsets.symmetric(vertical: 5),
-                decoration: BoxDecoration(
-                    border: Border.all(width: 1, color: Colors.black)),
+                // decoration: BoxDecoration(
+                //     border: Border.all(width: 1, color: Colors.black)),
                 child: Row(
                   children: [
                     Flexible(
                         child: Container(
-                            decoration: BoxDecoration(
-                                border:
-                                    Border.all(width: 1, color: Colors.red)),
+                            // decoration: BoxDecoration(
+                            //     border:
+                            //         Border.all(width: 1, color: Colors.red)),
                             child: Column(
-                              children: [
-                                Row(mainAxisSize: MainAxisSize.min, children: [
-                                  Flexible(
-                                      fit: FlexFit.tight,
-                                      child: Container(                                   
-                                          decoration: BoxDecoration(
-                                              border: Border.all(
-                                                  width: 1,
-                                                  color: Colors.blue)),
-                                          child: const Text("Teste"))),
-                                ]),
-                                Container(
+                      children: [
+                        Row(mainAxisSize: MainAxisSize.min, children: [
+                          Flexible(
+                              fit: FlexFit.tight,
+                              child: Container(
                                   decoration: BoxDecoration(
                                       border: Border.all(
-                                          width: 1, color: Colors.purple)),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    children: const [
-                                      Text("Teste 2"),
-                                      Text("Teste 1")
-                                    ],
-                                  ),
-                                )
-                              ],
-                            ))),
+                                          width: 1, color: Colors.blue)),
+                                  child: const Center(child: Text("Teste")))),
+                        ]),
+                        Container(
+                          margin: EdgeInsets.only(top: 5),
+                          decoration: BoxDecoration(
+                              border:
+                                  Border.all(width: 1, color: Colors.purple)),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: const [Text("Teste 2"), Text("Teste 1")],
+                          ),
+                        )
+                      ],
+                    ))),
                   ],
                 ))
           ],
