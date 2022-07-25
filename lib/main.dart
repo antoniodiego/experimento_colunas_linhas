@@ -96,8 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
                               children: [
                                 Row(mainAxisSize: MainAxisSize.min, children: [
                                   Flexible(
-                                      fit: FlexFit.loose,
-                                      child: Container(
+                                      fit: FlexFit.tight,
+                                      child: Container(                                   
                                           decoration: BoxDecoration(
                                               border: Border.all(
                                                   width: 1,
